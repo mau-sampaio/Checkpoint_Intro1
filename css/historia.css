@@ -115,3 +115,7 @@ a  {
 .hovertxt:hover:before {
     visibility: visible;
 }
+
+h1 {
+    letter-spacing: 2px;
+}
