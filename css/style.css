@@ -88,10 +88,30 @@ section {
     width: 95%;
     height: 68%;
 }
-section p {
+section li {
     padding-right: 5px;
 }
 
 .vermelho {background-color: red;}
 .verde {background-color: green;}
 .amarelo {background-color: yellow;}
+
+a  {
+    text-decoration: none;
+    cursor: pointer;
+    color: antiquewhite; 
+}
+
+.hovertxt {
+    position: relative;
+}
+
+.hovertxt::before {
+    content: attr(data-hover);
+    visibility: hidden;
+    color: #50E01E;
+}
+
+.hovertxt:hover:before {
+    visibility: visible;
+}
