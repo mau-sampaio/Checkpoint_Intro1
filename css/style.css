@@ -88,10 +88,38 @@ section {
     width: 95%;
     height: 68%;
 }
+<<<<<<< HEAD
 section p {
+=======
+section li {
+>>>>>>> f1d1c158007391cd168adc1dc6ec1e64139a8150
     padding-right: 5px;
 }
 
 .vermelho {background-color: red;}
 .verde {background-color: green;}
+<<<<<<< HEAD
 .amarelo {background-color: yellow;}
+=======
+.amarelo {background-color: yellow;}
+
+a  {
+    text-decoration: none;
+    cursor: pointer;
+    color: antiquewhite; 
+}
+
+.hovertxt {
+    position: relative;
+}
+
+.hovertxt::before {
+    content: attr(data-hover);
+    visibility: hidden;
+    color: #50E01E;
+}
+
+.hovertxt:hover:before {
+    visibility: visible;
+}
+>>>>>>> f1d1c158007391cd168adc1dc6ec1e64139a8150
