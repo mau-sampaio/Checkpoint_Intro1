@@ -115,16 +115,23 @@ nav a:focus span, nav a.ativo , nav a.ativo span {
 }
 
 .column a {
-    color: rgb(230, 90, 25);
+    color: #f54d27;
     letter-spacing: 1px;
 }
 
 .membros {
     padding-top: 50px;
     border-style: none;
+    margin-left: 10%;
+    margin-right: 0%;
 }
 
 .img_membros {
     float: left;
+    width: 55px;
+    height: 55px;
+    border-radius: 20%;
+    margin-right: 10px;
+    background-color: #f54d27;
 }
 
