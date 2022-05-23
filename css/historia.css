@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+body ::-webkit-scrollbar {
+  width: 10px;
+  padding: 2px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: rgb(33, 33, 33);
+  border-radius: 20px;
+  border: 3px solid rgb(35, 35, 35);
+}
+
+
+
+.terminal {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    background-color: #131313;
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    }
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: black;
+}
+
+#g2 {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #151515;
+    border-radius: 20px;
+}
+
+#farol {
+    margin: 2%;
+    float: left;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin: 0 0 0 2px;
+    color: antiquewhite;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    margin: 1;
+    padding: 0;
+    font-size: 17px;
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+#farol li {    
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
+
+section {
+    color: antiquewhite;
+    padding-left: 20px;
+    overflow-y: scroll;
+    width: 95%;
+    height: 68%;
+}
+section li {
+    padding-right: 5px;
+}
+
+.vermelho {background-color: red;}
+.verde {background-color: green;}
+.amarelo {background-color: yellow;}
+
+a  {
+    text-decoration: none;
+    cursor: pointer;
+    color: antiquewhite; 
+}
+
+.hovertxt {
+    position: relative;
+}
+
+.hovertxt::before {
+    content: attr(data-hover);
+    visibility: hidden;
+    color: #50E01E;
+}
+
+.hovertxt:hover:before {
+    visibility: visible;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
