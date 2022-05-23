@@ -20,13 +20,13 @@ body ::-webkit-scrollbar-thumb {
 
 
 .terminal {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #131313;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     border-radius: 20px;
     }
 
@@ -51,7 +51,7 @@ header {
 #farol {
     margin: 2%;
     float: left;
-    padding: 0;
+    padding: 0px;
 }
 
 li{
@@ -66,8 +66,8 @@ nav {
 }
 
 nav ul {
-    margin: 1;
-    padding: 0;
+    margin-left: 1px;
+    padding: 1px;
     font-size: 17px;
 }
 
@@ -118,4 +118,31 @@ a  {
 
 h1 {
     letter-spacing: 2px;
+    display: flex;
 }
+
+.imgd {
+    float: right;
+    width: 200px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.imgf {
+    float: left;
+    width: 300px;
+}
+
+.teste {
+    text-align: justify;
+    display: inline-block;
+}
+
+.teste li {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
