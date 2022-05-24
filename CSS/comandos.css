@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+  background-color: black;
+  font-family: 'VT323';
+}
+#Titulo {
+  color: white;
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.Fechar {
+  cursor: pointer;
+  top: 1%;
+  font-size: 30px;
+  left: 3%;
+  position: absolute;
+  color: red;
+}
+.Minimizar {
+  cursor: pointer;
+  top: 1%;
+  font-size: 30px;
+  position: absolute;
+  left: 7%;
+  color: yellow;
+}
+.Maximizar {
+  cursor: pointer;
+  top: 1%;
+  font-size: 30px;
+  left: 5%;
+  position: absolute;
+  color: green;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 48px;
+}
+.box {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 80%;
+  height: 85%;
+  background-color: #131313;
+  border-radius: 20px;
+}
+nav {
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+nav a span {
+  color: transparent;
+}
+
+nav a:hover span,
+nav a:focus span,
+nav a.ativo,
+nav a.ativo span {
+  color: green;
+}
+#Botoes_de_comando {
+  background-color: white;
+}
+.Caixa_comandos1 {
+  justify-content: center;
+  justify-content: space-around;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  background-color: #131313;
+}
+.Caixa_comandos2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-top: 60px;
+  background-color: #131313;
+}
+#Comando_clone:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_clone {
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+#Comando_checkout:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_checkout {
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+#Comando_add:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_add {
+  text-align: center;
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow-wrap: break-word;
+}
+#Comando_status:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_status {
+  text-align: center;
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow-wrap: break-word;
+}
+#Comando_commit:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_commit {
+  text-align: center;
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow-wrap: break-word;
+}
+#Comando_push:hover {
+  transition: 3s;
+  transform: scale(1.3);
+}
+#Comando_push {
+  text-align: center;
+  border-radius: 15%;
+  background-color: #844646;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  overflow-wrap: break-word;
+}
+p {
+  color: white;
+}
